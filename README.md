@@ -7,23 +7,14 @@ across Liverpool, and how that access changes by time of day and access type.
 You can view the live dashboard here: https://maryam-sulayman.github.io/liverpool-aed-access/
 
 ## What it shows
-The dashboard maps walking-distance access to Liverpool's 499 registered AEDs across 
-245 neighbourhoods, with filters for availability (all AEDs vs 24/7 only) and access 
-type (public vs restricted). Access changes depending on which defibrillators 
-are actually usable:
+Liverpool has good defibrillator coverage on paper, but access drops sharply once you only count defibrillators that are actually usable. Filtering to devices that are available 24/7 and open to the public drops the share of neighbourhoods within a 5-minute walk from 67% to just 8%. Coverage looks good overall but is very uneven out of hours, and older neighbourhoods have the least access.".
 
-- All AEDs: 67% of areas within a 5-minute walk; 37% of over-65s live more than 5 minutes away.
-- 24/7 only: drops to 38% of areas within a 5-minute walk; 63% of over-65s are underserved.
-- 24/7 + restricted access (worst case): only 8% of areas within a 5-minute walk.
-
-## Built with
-Python, Panel, Folium/Leaflet, GeoPandas, OSMnx, NetworkX, matplotlib
+Use the filters to explore this yourself, or see the full breakdown in the live dashboard. 
 
 ## Data sources
-- AED locations: The Circuit (British Heart Foundation national defibrillator registry)
-- Boundaries & population: ONS 2021 Census
-- Deprivation: MHCLG Index of Multiple Deprivation (IMD) 2019
-
+The Circuit (British Heart Foundation national defibrillator registry), ONS 2021 Census and MHCLG Index of Multiple Deprivation (IMD) 2019
 All data is publicly available.
 
 ![Dashboard screenshot](dashboard.png)
+
+Built with Python, Panel, Folium/Leaflet, GeoPandas, OSMnx, NetworkX, matplotlib
