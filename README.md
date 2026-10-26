@@ -1,6 +1,6 @@
 # AED Access in Liverpool
 
-If someone has a cardiac arrest, how close is the nearest defibrillator—and does that depend on where in Liverpool they live?
+If someone has a cardiac arrest, how close is the nearest defibrillator to them? And does that access depend on where in Liverpool they live?
 
 I built this dashboard to explore that question, looking at how access changes when you account for opening hours and whether defibrillators are open to the public.
 
