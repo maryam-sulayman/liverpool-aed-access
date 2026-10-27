@@ -1,20 +1,31 @@
 # AED Access in Liverpool
 
-An interactive geospatial dashboard analysing access to public defibrillators (AEDs) 
-across Liverpool, and how that access changes by time of day and access type.
+If someone has a cardiac arrest, how close is the nearest defibrillator to them? And does that access depend on where in Liverpool they live?
 
-## Live dashboard
-You can view the live dashboard here: https://maryam-sulayman.github.io/liverpool-aed-access/
+I built this dashboard to explore that question, looking at how access changes when you account for opening hours and whether defibrillators are open to the public.
 
-## What it shows
-Liverpool has good defibrillator coverage on paper, but access drops sharply once you only count defibrillators that are actually usable. Filtering to devices that are available 24/7 and open to the public drops the share of neighbourhoods within a 5-minute walk from 67% to just 8%. Coverage looks good overall but is very uneven out of hours, and older neighbourhoods have the least access.
+[View the live dashboard](https://maryam-sulayman.github.io/liverpool-aed-access/)
 
-Use the filters to explore this yourself, or see the full breakdown in the live dashboard. 
+## About the project
+
+The dashboard brings together defibrillator locations, census data and deprivation data to compare access across Liverpool neighbourhoods. You can filter by availability and access type to see how the results change.
+
+## Main finding
+
+Across all registered devices in the analysis, 67% of neighbourhoods are within an estimated five-minute walk of a defibrillator. When only devices recorded as publicly accessible and available 24/7 are included, this falls to 8%.
+
+This means that A defibrillator might be nearby, but it may have restricted access or be inside a building that’s closed.
 
 ## Data sources
-The Circuit (British Heart Foundation national defibrillator registry), ONS 2021 Census and MHCLG Index of Multiple Deprivation (IMD) 2019
-All data is publicly available.
+
+- The Circuit — national defibrillator registry
+- ONS Census 2021
+- MHCLG Index of Multiple Deprivation (IMD) 2019
+
+## Tools used
+
+Python, Panel, Folium/Leaflet, GeoPandas, OSMnx, NetworkX and Matplotlib.
+
+## Dashboard preview
 
 ![Dashboard screenshot](dashboard.png)
-
-Built with Python, Panel, Folium/Leaflet, GeoPandas, OSMnx, NetworkX, matplotlib
