@@ -14,7 +14,7 @@ The dashboard brings together defibrillator locations, census data and deprivati
 
 Across all registered devices in the analysis, 67% of neighbourhoods are within an estimated five-minute walk of a defibrillator. When only devices recorded as publicly accessible and available 24/7 are included, this falls to 8%.
 
-This highlights how much opening hours and access restrictions affect coverage, beyond simply where defibrillators are located.
+This means that A defibrillator might be nearby, but it may have restricted access or be inside a building that’s closed.
 
 ## Data sources
 
